@@ -16,10 +16,11 @@ conclusion: I have to understand android audio stack
 
 # android audio stack documentation 
 ![la pile audio android](https://source.android.com/devices/audio/images/ape_fwk_audio.png) 
+
 quickly looking at the documentation and reading some sourcecode does not bring me much information
 about where the new lib should be put, and how i could plug it to the android high level interface.
 of course, i could just stackoverflow it, but that's not the rule of the game:
-do it with minimal documentation, basic computer knowledge and sourcecode tree. 
+do it with minimal documentation, basic computer knowledge and aosp, exoplayer and mediaplayer sourcecode tree. 
 
 
 # back to basics
