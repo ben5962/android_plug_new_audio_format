@@ -13,6 +13,8 @@ conclusion:  hard to find a way to reduce volume of information.
 # mediaplayer or exoplayer documentation
 the android audio stack is considered understood in this documentation.
 I just found details about specific classes of both projects. 
+pcm audio format (independantly of his caracteristics) seems to play a central role
+for soundcards, because it is the stream format outputted by android codecs. 
 conclusion: I have to understand android audio stack
 
 # android audio stack documentation 
