@@ -7,7 +7,7 @@ I want to verify this assertion by doing.
 What is the minimal information necessary to do such a task?
 
 # frontal approach 
-class diagrams generated from a mediaplayer or an exoplayer documentation.
+class diagrams generated from a mediaplayer or an exoplayer git sourcecode.
 conclusion:  hard to find a way to reduce volume of information.
 
 # mediaplayer or exoplayer documentation
@@ -15,4 +15,4 @@ the android audio stack was considered understood
 conclusion: I have to understand android audio stack
 
 # android audio stack documentation 
-[la pile audio android] https://source.android.com/devices/audio/images/ape_fwk_audio.png "la pile audio android"
+![la pile audio android](https://source.android.com/devices/audio/images/ape_fwk_audio.png) 
