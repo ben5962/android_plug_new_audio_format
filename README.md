@@ -47,4 +47,4 @@ codec has to:
 - extract content
 - convert content to pcm
 
-then we have to feed dma buffer somehow at the right pace. 
+then I have to feed dma buffer with pcm somehow, at the right pace. 
