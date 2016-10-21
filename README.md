@@ -10,7 +10,8 @@ I want to verify this assertion by doing.
 What is the minimal information necessary to do such a task?
 
 # frontal approach 
-class diagrams generated from a mediaplayer or an exoplayer git sourcecode.
+class diagrams generated from  Mediaplayer or an exoplayer git sourcecode.
+back and forth reading between documentation and aosp sourcecode tree.
 conclusion:  hard to find a way to reduce volume of information.
 
 # mediaplayer or exoplayer documentation
