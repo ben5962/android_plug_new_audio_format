@@ -28,3 +28,26 @@ do it with minimal documentation, basic computer knowledge and aosp, exoplayer a
 
 
 # back to basics
+I may find the place where soundformats are defined in android by defining the steps of sound processing.
+- sound is produced by vibration of air
+- vibration of air is produced by speaker, moved by electrical signal
+- electrical signal is produced by soundcard
+- representation of soundcard is pcm. soundcard receives pcm stubs by reading some memory shared between soundcard and computer.
+
+I have to feed the soundcard with pcm.
+Pcm is one channel
+Pcm is caracterised by it's sampling depth and frequency.
+those data are not carried with pcm format. that's why we need containers, wav for exemple.
+then, we can build containers with any relevent information, such as the sampling depth and frequency, add
+some other pcm channel, the name of the track.
+
+
+codec opens the container, extracts contents and converts it to pcm. 
+I need to fill dma buffers at the right speed.
+
+
+this low level process is hidden by os. 
+
+
+
+
