@@ -34,20 +34,17 @@ I may find the place where soundformats are defined in android by defining the s
 - electrical signal is produced by soundcard
 - representation of soundcard is pcm. soundcard receives pcm stubs by reading some memory shared between soundcard and computer.
 
-I have to feed the soundcard with pcm.
-Pcm is one channel
-Pcm is caracterised by it's sampling depth and frequency.
-those data are not carried with pcm format. that's why we need containers, wav for exemple.
-then, we can build containers with any relevent information, such as the sampling depth and frequency, add
-some other pcm channel, the name of the track.
+I need containers, wav for exemple, because
+even if I  have to feed the soundcard with pcm, 
+its caracterised (sampling depth and frequency) 
+are not carried with pcm format.
+furthermore, I can put several pcm channels within a container, or 
+any other content that represents one channel of sound.
 
+codec has to:
+- open the container
+- extract information about inner content (format, sampling rate, sampling frequency, ...)
+- extract content
+- convert content to pcm
 
-codec opens the container, extracts contents and converts it to pcm. 
-I need to fill dma buffers at the right speed.
-
-
-this low level process is hidden by os. 
-
-
-
-
+then we have to feed dma buffer somehow at the right pace. 
