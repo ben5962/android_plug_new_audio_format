@@ -51,3 +51,9 @@ codec has to:
 - convert content to pcm
 
 then I have to feed dma buffer with pcm somehow, at the right pace. 
+
+android certainly does not permit such a low level operation. 
+I have to do understand how to play this process in android audio stack with an already supported audio format. 
+- which role plays each slice of the audio stack, their input interface, their output interface.
+- where would the codec code be, if I could recompile android source? how would it be called? 
+- how do extra players such as vlc or exoplayer to add custom formats supports without recompiling
