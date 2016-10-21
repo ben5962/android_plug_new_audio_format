@@ -1,6 +1,8 @@
 # android_plug_new_audio_format
 #  what? 
-just a student toy project to try to add a custom audio format to the android audio stack
+just a student toy project to try to add a custom audio format to the android audio stack.
+I'll just make a permutation of bits of some minimal depth minimal frequency 1 channel pcm
+track stuffed in a pcm container and try to find a way to add this format to android.
 #  just why? 
 Object oriented programming should enable anyone to plug some new feature without having to read a whole project sourcecode.
 I want to verify this assertion by doing.
